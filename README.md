@@ -1,1 +1,1 @@
-# BRentSDK-ios
+# BRentSDK-iOS
