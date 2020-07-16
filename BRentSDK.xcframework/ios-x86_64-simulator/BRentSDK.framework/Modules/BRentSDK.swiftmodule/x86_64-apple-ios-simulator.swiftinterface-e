@@ -15,7 +15,7 @@ extension BRentSDK : UserNotifications.UNUserNotificationCenterDelegate {
   @objc dynamic public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, openSettingsFor notification: UserNotifications.UNNotification?)
 }
 @objc @_hasMissingDesignatedInitializers public class SplashScreen : UIKit.UIView {
-  public static func sharedWithOptions(tintColor: UIKit.UIColor, hideNotification: Foundation.Notification.Name? = nil) -> SplashScreen
+  public static func sharedWithOptions(tintColor: UIKit.UIColor, hideNotification: Foundation.Notification.Name? = nil) -> BRentSDK.SplashScreen
   @objc deinit
   @objc override dynamic public init(frame: CoreGraphics.CGRect)
 }
