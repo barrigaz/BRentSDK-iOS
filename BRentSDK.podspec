@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BRentSDK'
-  s.version = '0.1.3'
+  s.version = '0.1.4'
   s.author = 'BRent Inc'
   s.license = { :type => 'Proprietary', :text => 'Copyright 2020 BRent Inc. All rights reserved.' }
   s.homepage = 'https://github.com/barrigaz/BRentSDK-iOS'
