@@ -1,0 +1,4890 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SplashScreen",
+        "printedName": "SplashScreen",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showWithOptions",
+            "printedName": "showWithOptions(tintColor:hideNotification:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNotification.Name?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDK12SplashScreenC15showWithOptions9tintColor16hideNotificationySo7UIColorC_So18NSNotificationNameaSgtFZ",
+            "mangledName": "$s8BRentSDK12SplashScreenC15showWithOptions9tintColor16hideNotificationySo7UIColorC_So18NSNotificationNameaSgtFZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SplashScreen",
+                "printedName": "BRentSDK.SplashScreen",
+                "usr": "c:@M@BRentSDK@objc(cs)SplashScreen"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BRentSDK@objc(cs)SplashScreen(im)initWithFrame:",
+            "mangledName": "$s8BRentSDK12SplashScreenC5frameACSo6CGRectV_tcfc",
+            "moduleName": "BRentSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didMoveToSuperview",
+            "printedName": "didMoveToSuperview()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@BRentSDK@objc(cs)SplashScreen(im)didMoveToSuperview",
+            "mangledName": "$s8BRentSDK12SplashScreenC18didMoveToSuperviewyyF",
+            "moduleName": "BRentSDK",
+            "overriding": true,
+            "objc_name": "didMoveToSuperview",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BRentSDK@objc(cs)SplashScreen",
+        "mangledName": "$s8BRentSDK12SplashScreenC",
+        "moduleName": "BRentSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BRentSDK",
+        "printedName": "BRentSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "orientationMask",
+            "printedName": "orientationMask",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8BRentSDKAAC15orientationMaskSo022UIInterfaceOrientationD0VvpZ",
+            "mangledName": "$s8BRentSDKAAC15orientationMaskSo022UIInterfaceOrientationD0VvpZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8BRentSDKAAC15orientationMaskSo022UIInterfaceOrientationD0VvgZ",
+                "mangledName": "$s8BRentSDKAAC15orientationMaskSo022UIInterfaceOrientationD0VvgZ",
+                "moduleName": "BRentSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isReady",
+            "printedName": "isReady",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8BRentSDKAAC7isReadySbvpZ",
+            "mangledName": "$s8BRentSDKAAC7isReadySbvpZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8BRentSDKAAC7isReadySbvgZ",
+                "mangledName": "$s8BRentSDKAAC7isReadySbvgZ",
+                "moduleName": "BRentSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "launchOptions",
+            "printedName": "launchOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8BRentSDKAAC13launchOptionsSDySo019UIApplicationLaunchD3KeyaypGSgvpZ",
+            "mangledName": "$s8BRentSDKAAC13launchOptionsSDySo019UIApplicationLaunchD3KeyaypGSgvpZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LaunchOptionsKey",
+                            "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                            "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8BRentSDKAAC13launchOptionsSDySo019UIApplicationLaunchD3KeyaypGSgvgZ",
+                "mangledName": "$s8BRentSDKAAC13launchOptionsSDySo019UIApplicationLaunchD3KeyaypGSgvgZ",
+                "moduleName": "BRentSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "keys",
+            "printedName": "keys",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8BRentSDKAAC4keysSDyS2SGvpZ",
+            "mangledName": "$s8BRentSDKAAC4keysSDyS2SGvpZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8BRentSDKAAC4keysSDyS2SGvgZ",
+                "mangledName": "$s8BRentSDKAAC4keysSDyS2SGvgZ",
+                "moduleName": "BRentSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:didFinishLaunchingWithOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIApplication.LaunchOptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LaunchOptionsKey",
+                        "printedName": "UIKit.UIApplication.LaunchOptionsKey",
+                        "usr": "c:@T@UIApplicationLaunchOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDKAAC11application_29didFinishLaunchingWithOptionsySo13UIApplicationC_SDySo0i6LaunchH3KeyaypGSgtFZ",
+            "mangledName": "$s8BRentSDKAAC11application_29didFinishLaunchingWithOptionsySo13UIApplicationC_SDySo0i6LaunchH3KeyaypGSgtFZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAfid",
+            "printedName": "setAfid(afid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDKAAC7setAfid4afidySSSg_tFZ",
+            "mangledName": "$s8BRentSDKAAC7setAfid4afidySSSg_tFZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushToken",
+            "printedName": "setPushToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDKAAC12setPushTokenyySSFZ",
+            "mangledName": "$s8BRentSDKAAC12setPushTokenyySSFZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleFBLink",
+            "printedName": "handleFBLink(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDKAAC12handleFBLinkyy10Foundation3URLVSg_s5Error_pSgtFZ",
+            "mangledName": "$s8BRentSDKAAC12handleFBLinkyy10Foundation3URLVSg_s5Error_pSgtFZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handleAFLink",
+            "printedName": "handleAFLink(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDKAAC12handleAFLinkyySDys11AnyHashableVypGFZ",
+            "mangledName": "$s8BRentSDKAAC12handleAFLinkyySDys11AnyHashableVypGFZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BRentSDK@objc(cs)BRentSDK",
+        "mangledName": "$s8BRentSDKAAC",
+        "moduleName": "BRentSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BRentSDKDelegate",
+        "printedName": "BRentSDKDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pause",
+            "printedName": "pause()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDK0A11SDKDelegateP5pauseyyF",
+            "mangledName": "$s8BRentSDK0A11SDKDelegateP5pauseyyF",
+            "moduleName": "BRentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : BRentSDK.BRentSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : BRentSDK.BRentSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "event",
+            "printedName": "event(eventName:parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDK0A11SDKDelegateP5event0D4Name10parametersySS_SDySSypGSgtF",
+            "mangledName": "$s8BRentSDK0A11SDKDelegateP5event0D4Name10parametersySS_SDySSypGSgtF",
+            "moduleName": "BRentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : BRentSDK.BRentSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : BRentSDK.BRentSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "issue",
+            "printedName": "issue(isError:message:extra:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8BRentSDK0A11SDKDelegateP5issue7isError7message5extraySb_SSSDySSypGSgtF",
+            "mangledName": "$s8BRentSDK0A11SDKDelegateP5issue7isError7message5extraySb_SSSDySSypGSgtF",
+            "moduleName": "BRentSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : BRentSDK.BRentSDKDelegate>",
+            "sugared_genericSig": "<Self where Self : BRentSDK.BRentSDKDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8BRentSDK0A11SDKDelegateP",
+        "mangledName": "$s8BRentSDK0A11SDKDelegateP",
+        "moduleName": "BRentSDK",
+        "genericSig": "<τ_0_0 : UIKit.UIApplicationDelegate>",
+        "sugared_genericSig": "<Self : UIKit.UIApplicationDelegate>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "BRentSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC8BRentSDKE4iconSo7UIImageCvp",
+            "mangledName": "$sSo8NSBundleC8BRentSDKE4iconSo7UIImageCvp",
+            "moduleName": "BRentSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC8BRentSDKE4iconSo7UIImageCvg",
+                "mangledName": "$sSo8NSBundleC8BRentSDKE4iconSo7UIImageCvg",
+                "moduleName": "BRentSDK",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "hideSplash",
+            "printedName": "hideSplash",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So18NSNotificationNamea8BRentSDKE10hideSplashABvpZ",
+            "mangledName": "$sSo18NSNotificationNamea8BRentSDKE10hideSplashABvpZ",
+            "moduleName": "BRentSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So18NSNotificationNamea8BRentSDKE10hideSplashABvgZ",
+                "mangledName": "$sSo18NSNotificationNamea8BRentSDKE10hideSplashABvgZ",
+                "moduleName": "BRentSDK",
+                "static": true,
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MessageHandlers.swift",
+      "kind": "StringLiteral",
+      "offset": 587,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MessageHandlers.swift",
+      "kind": "StringLiteral",
+      "offset": 646,
+      "length": 12,
+      "value": "\"parameters\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 15,
+      "value": "\"Cache-Control\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 7,
+      "value": "\"Token\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 125,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 17,
+      "value": "\"Accept-Encoding\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 15,
+      "value": "\"Cache-Control\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 7,
+      "value": "\"Token\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 17,
+      "value": "\"application\/xml\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 26,
+      "value": "\"application\/octet-stream\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 24,
+      "value": "\"application\/javascript\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 425,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 17,
+      "value": "\"application\/xml\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 26,
+      "value": "\"application\/octet-stream\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Header.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 24,
+      "value": "\"application\/javascript\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Encryption\/Cryptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 381,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Encryption\/Cryptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Encryption\/Cryptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1083,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Encryption\/Cryptor.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1562,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 422,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "Array",
+      "offset": 454,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1004,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1358,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 4,
+      "value": "\"fb\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 7,
+      "value": "\"af:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2362,
+      "length": 11,
+      "value": "\"af_status\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2378,
+      "length": 9,
+      "value": "\"Organic\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/DeeplinkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 15,
+      "value": "\"BRentSDK.DeeplinkManager\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/SentryAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 127,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/SentryAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 45,
+      "value": "\"HTTP ERROR \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/SentryAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 1,
+      "value": "\": \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/SentryAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/SentryAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 403,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 43,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 1,
+      "value": "\"-Info\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 7,
+      "value": "\"plist\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 381,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 880,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1549,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1565,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1613,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1939,
+      "length": 6,
+      "value": "\"Link\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1966,
+      "length": 6,
+      "value": "\"Host\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 9,
+      "value": "\"License\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 6,
+      "value": "\"Keys\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 2063,
+      "length": 16,
+      "value": "\"IsWaitForLinks\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 17,
+      "value": "\"IsProcessEvents\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1939,
+      "length": 6,
+      "value": "\"Link\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1966,
+      "length": 6,
+      "value": "\"Host\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1996,
+      "length": 9,
+      "value": "\"License\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 6,
+      "value": "\"Keys\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 2063,
+      "length": 16,
+      "value": "\"IsWaitForLinks\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Preferences\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 17,
+      "value": "\"IsProcessEvents\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2198,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2494,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 2905,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3554,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3803,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 4143,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4269,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4504,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4591,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 34,
+      "length": 5,
+      "value": "\"BRentSDK.TutVC\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 6547,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 8655,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8783,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 9248,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9324,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 9397,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9476,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9552,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 10163,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "StringLiteral",
+      "offset": 10475,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10628,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 49,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "\"|\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 24,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 273,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 318,
+      "length": 22,
+      "value": "\"license is not valid\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 457,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 733,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 897,
+      "length": 23,
+      "value": "\"Link is not valid URL\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 13,
+      "value": "\"orientation\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2313,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 33,
+      "value": "\"Network error with code \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 38,
+      "value": "\"Coding error with message \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/NetworkError.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Updated.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 12,
+      "value": "\"unknownApp\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Updated.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Updated.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Updated.swift",
+      "kind": "Array",
+      "offset": 450,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/LocalizedStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 8,
+      "value": "\"%\\S*%\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/LocalizedStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 3,
+      "value": "\"%\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/LocalizedStrings.swift",
+      "kind": "StringLiteral",
+      "offset": 327,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Events.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 12,
+      "value": "\"unknownApp\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Events.swift",
+      "kind": "StringLiteral",
+      "offset": 237,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Events.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "Array",
+      "offset": 77,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 125,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 180,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 488,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 756,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 901,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 3,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1110,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1115,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1141,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1257,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/DynLabel.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 12,
+      "value": "\"BRentSDK.DynTextLabel\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 725,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "Array",
+      "offset": 964,
+      "length": 14,
+      "value": "[\"Loading...\"]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 990,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1038,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1100,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 14,
+      "value": "\"LaunchScreen\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1370,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1981,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2132,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2277,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2751,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2832,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2917,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2983,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2997,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 3105,
+      "length": 12,
+      "value": "0.9607843161"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 3126,
+      "length": 12,
+      "value": "0.7058823705"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 3146,
+      "length": 11,
+      "value": "0.200000003"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3166,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3222,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3328,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3413,
+      "length": 3,
+      "value": "-25"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3429,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 3479,
+      "length": 6,
+      "value": "\"Meta\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3742,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3755,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 3798,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 3810,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3895,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4059,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4167,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 4577,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "StringLiteral",
+      "offset": 27,
+      "length": 12,
+      "value": "\"BRentSDK.SplashScreen\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/SplashScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4751,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Requested.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 12,
+      "value": "\"unknownApp\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Requested.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Requested.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Requested.swift",
+      "kind": "StringLiteral",
+      "offset": 602,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/Models\/Requested.swift",
+      "kind": "Array",
+      "offset": 962,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Request.swift",
+      "kind": "Dictionary",
+      "offset": 133,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/Models\/Request.swift",
+      "kind": "FloatLiteral",
+      "offset": 333,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 12,
+      "value": "\"unknownApp\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 406,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 448,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 10,
+      "value": "\"embedded\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 582,
+      "length": 17,
+      "value": "\"mobileprovision\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 16,
+      "value": "\"sandboxReceipt\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 15,
+      "value": "\"CFBundleIcons\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 21,
+      "value": "\"CFBundlePrimaryIcon\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Bundle.swift",
+      "kind": "StringLiteral",
+      "offset": 962,
+      "length": 19,
+      "value": "\"CFBundleIconFiles\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 429,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 717,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "FloatLiteral",
+      "offset": 868,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 921,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 948,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "FloatLiteral",
+      "offset": 1034,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "StringLiteral",
+      "offset": 1188,
+      "length": 17,
+      "value": "\"window.close();\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "StringLiteral",
+      "offset": 1308,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/PopupWV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1593,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/BRentSDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/BRentSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1353,
+      "length": 8,
+      "value": "\"launch\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Encryption\/String+Encoding.swift",
+      "kind": "StringLiteral",
+      "offset": 1002,
+      "length": 46,
+      "value": "\"NEZhSlBGTWxCdm52anRxZE1XcE80U0VXeFhKWm1LcQ==\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Interfaces\/AppInterface.swift",
+      "kind": "Dictionary",
+      "offset": 682,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "Array",
+      "offset": 299,
+      "length": 10,
+      "value": "[0.0, 1.0]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 354,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 362,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 413,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 421,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 726,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 818,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1066,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1295,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1311,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1346,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1655,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1676,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1747,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1874,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2015,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2166,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2313,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2357,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2436,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2481,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/UIView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2562,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 257,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 316,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 344,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 29,
+      "value": "\"allowFileAccessFromFileURLs\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 829,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "BooleanLiteral",
+      "offset": 863,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/MainWV.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1153,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVResources.swift",
+      "kind": "BooleanLiteral",
+      "offset": 314,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVResources.swift",
+      "kind": "StringLiteral",
+      "offset": 401,
+      "length": 34,
+      "value": "\"TlNDYW1lcmFVc2FnZURlc2NyaXB0aW9u\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVResources.swift",
+      "kind": "BooleanLiteral",
+      "offset": 754,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVResources.swift",
+      "kind": "StringLiteral",
+      "offset": 1020,
+      "length": 11,
+      "value": "\"%USER_ID%\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/WV\/WVResources.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1155,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 5,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "BooleanLiteral",
+      "offset": 444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "Dictionary",
+      "offset": 527,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "BooleanLiteral",
+      "offset": 796,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1087,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2391,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2440,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2447,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2608,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Url.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2615,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Notifications.swift",
+      "kind": "StringLiteral",
+      "offset": 117,
+      "length": 18,
+      "value": "\"HideSplashScreen\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 269,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 277,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 687,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 773,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/CloseButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 789,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "Array",
+      "offset": 261,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "StringLiteral",
+      "offset": 308,
+      "length": 92,
+      "value": "\"Failed to parse \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 2,
+      "value": "\" as a regular expression, falling back to match everything\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "StringLiteral",
+      "offset": 466,
+      "length": 4,
+      "value": "\".*\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "Array",
+      "offset": 481,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "StringLiteral",
+      "offset": 1048,
+      "length": 526,
+      "value": "\"^(?:[a-z0-9!#$%\\&'*+\/=?\\^_`{|}~-]+(?:\\.[a-z0-9!#$%\\&'*+\/=?\\^_`{|}~-]+)*|\"(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21\\x23-\\x5b\\x5d-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])*\")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x21-\\x5a\\x53-\\x7f]|\\\\[\\x01-\\x09\\x0b\\x0c\\x0e-\\x7f])+)\\])$\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "StringLiteral",
+      "offset": 1610,
+      "length": 63,
+      "value": "\"^(\\+\\d{1,2}\\s)?\\(?\\d{3}\\)?[\\s.-]?\\d{3}[\\s.-]?\\d{4}$\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/Regex.swift",
+      "kind": "Array",
+      "offset": 1876,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Logs.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Logs.swift",
+      "kind": "IntegerLiteral",
+      "offset": 321,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Logs.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Logs.swift",
+      "kind": "Array",
+      "offset": 640,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 82,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 99,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 666,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "StringLiteral",
+      "offset": 1162,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1708,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1843,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Models\/Statistics.swift",
+      "kind": "Dictionary",
+      "offset": 2006,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/LargeActvInd.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/LargeActvInd.swift",
+      "kind": "BooleanLiteral",
+      "offset": 226,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/LargeActvInd.swift",
+      "kind": "FloatLiteral",
+      "offset": 277,
+      "length": 4,
+      "value": "1.25"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/View\/LargeActvInd.swift",
+      "kind": "FloatLiteral",
+      "offset": 286,
+      "length": 4,
+      "value": "1.25"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 40,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 127,
+      "length": 1,
+      "value": "\"]\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 10,
+      "value": "\"warning:\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 8,
+      "value": "\"error:\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 23,
+      "value": "\" error — \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Performance\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/R.swift",
+      "kind": "BooleanLiteral",
+      "offset": 143,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/R.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 3,
+      "value": "\"R\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/R.swift",
+      "kind": "BooleanLiteral",
+      "offset": 350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Resources\/R.swift",
+      "kind": "BooleanLiteral",
+      "offset": 845,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
+      "kind": "Dictionary",
+      "offset": 523,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
+      "kind": "Dictionary",
+      "offset": 1960,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
+      "kind": "StringLiteral",
+      "offset": 2299,
+      "length": 18,
+      "value": "\"networking catch\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
+      "kind": "Dictionary",
+      "offset": 2577,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
+      "kind": "StringLiteral",
+      "offset": 4073,
+      "length": 23,
+      "value": "\"Request data is empty\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "Dictionary",
+      "offset": 127,
+      "length": 36,
+      "value": "[(\"Content-Type\", \"application\/json\")]"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 7,
+      "value": "\"Token\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 19,
+      "value": "\"Base URL is empty\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 24,
+      "value": "\"sendStat: \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 552,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 596,
+      "length": 6,
+      "value": "\"stat\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
+      "kind": "StringLiteral",
+      "offset": 1593,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 10,
+      "value": "\"portrait\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 228,
+      "length": 20,
+      "value": "\"portraitUpsideDown\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 15,
+      "value": "\"landscapeLeft\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 16,
+      "value": "\"landscapeRight\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 8,
+      "value": "\"faceUp\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 10,
+      "value": "\"faceDown\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 519,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1006,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
+      "length": 14,
+      "value": "\"iPod Touch 5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1334,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1384,
+      "length": 14,
+      "value": "\"iPod Touch 6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1416,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1466,
+      "length": 14,
+      "value": "\"iPod Touch 7\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1498,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1511,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1576,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1705,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1733,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1746,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1783,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1825,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1862,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1891,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1941,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 1969,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2019,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2052,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2131,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2181,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2215,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2265,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2293,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2306,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2343,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2376,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2426,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2455,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2469,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2505,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2533,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2547,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2583,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2616,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2630,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2666,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2744,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2773,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2787,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2823,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2856,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2906,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2935,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 2985,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3064,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3097,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3147,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3184,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3195,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3206,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3217,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3234,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3260,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3271,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3282,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3310,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3336,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3347,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3358,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3412,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3423,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3434,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3490,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3501,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3540,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3570,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3582,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3620,
+      "length": 8,
+      "value": "\"iPad 5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3646,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3657,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3696,
+      "length": 8,
+      "value": "\"iPad 6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3722,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3734,
+      "length": 10,
+      "value": "\"iPad11,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3772,
+      "length": 27,
+      "value": "\"iPad Air (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3817,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3828,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3839,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3867,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3896,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3907,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3918,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3946,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3977,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3988,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 3999,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4027,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4058,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4069,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4108,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4139,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4151,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4189,
+      "length": 13,
+      "value": "\"iPad Mini 5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4220,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4231,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4270,
+      "length": 21,
+      "value": "\"iPad Pro (9.7-inch)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4309,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4320,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4359,
+      "length": 22,
+      "value": "\"iPad Pro (12.9-inch)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4399,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4410,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4449,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4506,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4517,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4556,
+      "length": 22,
+      "value": "\"iPad Pro (10.5-inch)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4596,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4607,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4618,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4629,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4646,
+      "length": 20,
+      "value": "\"iPad Pro (11-inch)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4684,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4695,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4706,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4717,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4734,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4791,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4841,
+      "length": 10,
+      "value": "\"Apple TV\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4869,
+      "length": 12,
+      "value": "\"AppleTV6,2\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4919,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 4950,
+      "length": 19,
+      "value": "\"AudioAccessory1,1\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5000,
+      "length": 9,
+      "value": "\"HomePod\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5027,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5035,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5077,
+      "length": 104,
+      "value": "\"Simulator \""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5140,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5173,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 5180,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6006,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8380,
+      "length": 29,
+      "value": "\"CTRadioAccessTechnologyGPRS\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8434,
+      "length": 29,
+      "value": "\"CTRadioAccessTechnologyEdge\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8488,
+      "length": 31,
+      "value": "\"CTRadioAccessTechnologyCDMA1x\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8543,
+      "length": 28,
+      "value": "\"CTRadioAccessTechnologyLTE\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8596,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyeHRPD\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8652,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyHSDPA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8708,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyHSUPA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8763,
+      "length": 37,
+      "value": "\"CTRadioAccessTechnologyCDMAEVDORev0\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8825,
+      "length": 37,
+      "value": "\"CTRadioAccessTechnologyCDMAEVDORevA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8887,
+      "length": 37,
+      "value": "\"CTRadioAccessTechnologyCDMAEVDORevB\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8950,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyWCDMA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 9131,
+      "length": 4,
+      "value": "\"2G\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 9190,
+      "length": 4,
+      "value": "\"4G\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 9247,
+      "length": 4,
+      "value": "\"3G\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8380,
+      "length": 29,
+      "value": "\"CTRadioAccessTechnologyGPRS\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8434,
+      "length": 29,
+      "value": "\"CTRadioAccessTechnologyEdge\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8488,
+      "length": 31,
+      "value": "\"CTRadioAccessTechnologyCDMA1x\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8543,
+      "length": 28,
+      "value": "\"CTRadioAccessTechnologyLTE\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8596,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyeHRPD\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8652,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyHSDPA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8708,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyHSUPA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8763,
+      "length": 37,
+      "value": "\"CTRadioAccessTechnologyCDMAEVDORev0\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8825,
+      "length": 37,
+      "value": "\"CTRadioAccessTechnologyCDMAEVDORevA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8887,
+      "length": 37,
+      "value": "\"CTRadioAccessTechnologyCDMAEVDORevB\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 8950,
+      "length": 30,
+      "value": "\"CTRadioAccessTechnologyWCDMA\""
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Extensions\/Device.swift",
+      "kind": "StringLiteral",
+      "offset": 9527,
+      "length": 6,
+      "value": "\"WiFi\""
+    }
+  ]
+}

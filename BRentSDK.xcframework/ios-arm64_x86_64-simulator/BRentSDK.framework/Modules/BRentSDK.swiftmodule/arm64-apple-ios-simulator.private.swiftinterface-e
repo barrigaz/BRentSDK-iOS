@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BRentSDK
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BRentSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
 @_exported import BRentSDK
@@ -16,7 +16,7 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) public static func showWithOptions(tintColor: UIKit.UIColor, hideNotification: Foundation.Notification.Name? = nil)
   @objc deinit
 }
-extension SplashScreen {
+extension BRentSDK.SplashScreen {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToSuperview()
 }
 extension Foundation.Bundle {
@@ -32,7 +32,7 @@ public protocol BRentSDKDelegate : UIKit.UIApplicationDelegate {
   func event(eventName: Swift.String, parameters: [Swift.String : Any]?)
   func issue(isError: Swift.Bool, message: Swift.String, extra: [Swift.String : Any]?)
 }
-extension BRentSDK {
+extension BRentSDK.BRentSDK {
   public static var orientationMask: UIKit.UIInterfaceOrientationMask {
     get
   }
@@ -47,11 +47,11 @@ extension BRentSDK {
   }
   public static func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
 }
-extension BRentSDK {
+extension BRentSDK.BRentSDK {
   public static func setAfid(afid: Swift.String?)
   public static func setPushToken(_ pushToken: Swift.String)
 }
-extension BRentSDK {
+extension BRentSDK.BRentSDK {
   public static func handleFBLink(_ url: Foundation.URL?, _ error: (any Swift.Error)?)
   public static func handleAFLink(_ conversionInfo: [Swift.AnyHashable : Any])
 }
