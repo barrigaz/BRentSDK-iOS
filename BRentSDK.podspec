@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'BRentSDK'
-  s.version = '0.1.4'
+  s.version = '0.1.7'
   s.author = 'BRent Inc'
   s.license = { :type => 'Proprietary', :text => 'Copyright 2020 BRent Inc. All rights reserved.' }
   s.homepage = 'https://github.com/barrigaz/BRentSDK-iOS'
@@ -14,5 +14,5 @@ Assistant for managing ads and trackers
 	:tag => "#{s.version}"
   }
   s.vendored_frameworks = 'BRentSDK.xcframework'
-  s.platform =:ios, '12.0'
+  s.platform =:ios, '13.0'
 end
