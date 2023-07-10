@@ -2068,91 +2068,91 @@
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "StringLiteral",
-      "offset": 159,
+      "offset": 129,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "StringLiteral",
-      "offset": 192,
+      "offset": 162,
       "length": 1,
       "value": "\"|\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "StringLiteral",
-      "offset": 207,
+      "offset": 177,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 273,
+      "offset": 243,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "StringLiteral",
-      "offset": 318,
+      "offset": 300,
       "length": 22,
       "value": "\"license is not valid\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 359,
+      "offset": 349,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 457,
+      "offset": 447,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 529,
+      "offset": 519,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 559,
+      "offset": 549,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1573,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "StringLiteral",
-      "offset": 733,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
-      "kind": "StringLiteral",
-      "offset": 897,
-      "length": 23,
-      "value": "\"Link is not valid URL\""
-    },
-    {
-      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
-      "kind": "StringLiteral",
-      "offset": 1770,
+      "offset": 1668,
       "length": 13,
       "value": "\"orientation\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
       "kind": "BooleanLiteral",
-      "offset": 2313,
+      "offset": 1723,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Initialization.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2199,
       "length": 4,
       "value": "true"
     },
@@ -2831,7 +2831,7 @@
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/BRentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1499,
       "length": 8,
       "value": "\"launch\""
     },
@@ -3565,22 +3565,15 @@
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
-      "kind": "StringLiteral",
-      "offset": 2299,
-      "length": 18,
-      "value": "\"networking catch\""
-    },
-    {
-      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
       "kind": "Dictionary",
-      "offset": 2577,
+      "offset": 2532,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/HTTP\/HTTP.swift",
       "kind": "StringLiteral",
-      "offset": 4073,
+      "offset": 4028,
       "length": 23,
       "value": "\"Request data is empty\""
     },
@@ -3608,35 +3601,21 @@
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
       "kind": "StringLiteral",
-      "offset": 529,
-      "length": 24,
-      "value": "\"sendStat: \""
-    },
-    {
-      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
-      "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 609,
       "length": 6,
       "value": "\"stat\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
       "kind": "StringLiteral",
-      "offset": 1017,
+      "offset": 1030,
       "length": 6,
       "value": "\"http\""
     },
     {
       "filePath": "\/Users\/danilvahidov\/var\/barrigas\/ios\/brent-sdk\/BRentSDK\/Modules\/Networking\/APIEndpoints\/NetworkEndpoints.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1606,
       "length": 8,
       "value": "\"events\""
     },
