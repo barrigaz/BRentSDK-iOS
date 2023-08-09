@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		s1+37A7wq1FegqSddTphqcCzpDo=
+		Z1DgmaOOchysOF5gnDETJ6IhKZU=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		EdHzovCSTtENaNEc25R3x+Lv564=
+		2l14OQ8ZfKm5p71ynfeOECGBkRs=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		EdHzovCSTtENaNEc25R3x+Lv564=
+		2l14OQ8ZfKm5p71ynfeOECGBkRs=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Yb+bcjBbEI+FKQlPr1L1gnq2KC8=
+		ivb2c2vu3CVNdrfqvdLEUuhUGss=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		s1+37A7wq1FegqSddTphqcCzpDo=
+		Z1DgmaOOchysOF5gnDETJ6IhKZU=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Sn+4F9uOUMqyCaKZPUcOuSetAkg=
+		EHjAqeCv9GlB7riV1XxKOcbkdTo=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Sn+4F9uOUMqyCaKZPUcOuSetAkg=
+		EHjAqeCv9GlB7riV1XxKOcbkdTo=
 		</data>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lLlS9ocQH50VWVOVoKQMOiwPqds=
+		WyLSqmpXDtWriuYM+CRW6hZjh68=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,14 +119,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L6kmwDNWW4S5SaRmfRVPSmnbnZDEiTzJVk/KWxm3wPw=
+			IS1J9My7z9ndplbfPS1hMWU0oX6G2T2cofHkpuLfNqc=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RgDJlA8OD0mvjdKjIaPz94uUo2rn96YIL3nfKEmHpjY=
+			3H6lZjp3i+hEFarzb/KXgu0Qeanf6P+04EZDvp/7fIY=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -140,28 +140,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RgDJlA8OD0mvjdKjIaPz94uUo2rn96YIL3nfKEmHpjY=
+			3H6lZjp3i+hEFarzb/KXgu0Qeanf6P+04EZDvp/7fIY=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sjEKMhtCZZ0BA5zAx2PN3PkfK0cqJgmPskzLHPejxwc=
+			ii/9Qhotsa2gTm3RS7CycF7PTnnoGApFYfP+YvDU15o=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L6kmwDNWW4S5SaRmfRVPSmnbnZDEiTzJVk/KWxm3wPw=
+			IS1J9My7z9ndplbfPS1hMWU0oX6G2T2cofHkpuLfNqc=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			elyV2bZopvStDmJuLpIHIYJj5pgXSyP2ryceNzGBEKI=
+			F0KkxAAh8/uS1OQNFCTgrN1T0HAv/hY4TRlA6T53tdc=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -175,14 +175,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			elyV2bZopvStDmJuLpIHIYJj5pgXSyP2ryceNzGBEKI=
+			F0KkxAAh8/uS1OQNFCTgrN1T0HAv/hY4TRlA6T53tdc=
 			</data>
 		</dict>
 		<key>Modules/BRentSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mz5G6uRo0jd9dOGX84D1yOMQ98GNKwD9S3z3StTPtzc=
+			iGbJUsFi2SPXWRqI3Cfz0p9m+9wB8mEHSvP9F5VZ/wY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

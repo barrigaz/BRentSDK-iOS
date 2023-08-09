@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = BRendSDK'
-  s.version          = '0.1.21'
+  s.version          = '0.1.19'
   s.summary          = 'Barrigaz rent SDK.'
 
 # This description is used to generate tags and improve search results.

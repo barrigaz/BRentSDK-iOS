@@ -45,7 +45,8 @@ extension BRentSDK.BRentSDK {
   public static var keys: [Swift.String : Swift.String] {
     get
   }
-  public static func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?)
+  public static func application(_ application: UIKit.UIApplication, didFinishLaunchingWithOptions launchOptions: [UIKit.UIApplication.LaunchOptionsKey : Any]?, isSync: Swift.Bool)
+  public static func gameStarting() -> Swift.Bool
 }
 extension BRentSDK.BRentSDK {
   public static func setAfid(afid: Swift.String?)
